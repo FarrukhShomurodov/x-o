@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  width: 306px;
+}
+#boss{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 306px;
+}
+#score_block{
+  position: relative;
+  bottom: -15px;
+}
+#player_2{
+  float: right;
+}
+#score_player_2{
+  float: right;
+}
+.block{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+}
+.action{
+  margin: 1px;
+  background-color: #8ec06c;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+#operation{
+  margin-top: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
