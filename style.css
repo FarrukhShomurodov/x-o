@@ -1,32 +1,17 @@
-.header{
-  display: flex;
-  justify-content: center;
+.main{
+  position: absolute;
+  width: 100%;
+  top: 25%;
 }
 .content{
-  width: 306px;
-}
-#boss{
   display: flex;
-  flex-direction: column;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
-  width: 306px;
+  flex-direction: column;
+  width: 100%;
 }
 #score_block{
-  position: relative;
-  bottom: -15px;
-}
-#player_2{
-  float: right;
-}
-#score_player_2{
-  float: right;
-}
-.block{
-  display: flex;
-  flex-direction: row;
-  justify-self: center;
-  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .action{
   margin: 1px;
@@ -41,5 +26,8 @@
 }
 #operation{
   margin-top: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#result{
   font-family: 'Josefin Sans', sans-serif;
 }

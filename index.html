@@ -5,48 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font-style -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
 
-<div class="header">
-    <div class="content">
+<div class="main">
+    <div class="container">
+        <div class="content">
 
-        <div id="score_block"  style="display: block;">
-            <span id="player_1">player1: </span><span id="score_player_1">0</span>
-            <span id="player_2">player2: </span><span id="score_player_2">0</span>
-        </div>
+            <div class="row" id="score_block"  style="display: block;">
+                <span class=""><span id="player_1">player1: </span><span id="score_player_1">0</span></span>
+                <span class=""><span id="player_2">player2: </span><span id="score_player_2">0</span></span>
+            </div>
 
-        <div id="boss">
-            <p id="result"></p>
-    
-            <div class="block">
-                <input class="action" type="button">
-                <input class="action" type="button">
-                <input class="action" type="button">
+            <div class="col">
+                <p class="text-center" id="result"></p>
+        
+                <div class="col">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                </div>
+                <div class="col">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                </div>
+                <div class="col">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                    <input class="action btn border border-secondary fs-1" type="button">
+                </div>
             </div>
-            <div class="block">
-                <input class="action" type="button">
-                <input class="action" type="button">
-                <input class="action" type="button">
-            </div>
-            <div class="block">
-                <input class="action" type="button">
-                <input class="action" type="button">
-                <input class="action" type="button">
-            </div>
-        </div>
 
-        <div id="operation" >
-            <input type="button" id="restar"  value="Restar">
-            <input type="button" id="next_game"  value="New Game" style="margin-left: 5px;">
+            <div id="operation" >
+                <input type="button" class="btn" id="restar"  value="Restar">
+                <input type="button" class="btn" id="next_game"  value="New Game" style="margin-left: 5px;">
+            </div>
         </div>
     </div>
 </div>
-
 <script src="main.js" ></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
